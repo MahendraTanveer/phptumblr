@@ -25,13 +25,6 @@ Let's see the params:
   * *$type*: the type of posts you want to get. Valid types are regular, quote, photo, link, conversation, video  and audio. Default is null (all types will be taken).
   * *$id*: if you want to get a specific post, it's ID go here. Default is null (not used).
 
-== Sort the array ==
-Okay, so after play with that, you'll probably want to get the array in a logical order (chronological or not). That the role of the *sortArray* function.
-{{{
-$tumblrObj->sortArray();
-}}}
-If no parameter is given, posts will be in non-chronological order. Pass _true_ as param to get in chronological order.
-
 == And finally get it! ==
 No more ceremony...
 {{{
