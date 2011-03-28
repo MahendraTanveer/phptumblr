@@ -28,7 +28,7 @@ Let's see the params:
 == And finally get it! ==
 No more ceremony...
 {{{
-$tumblrArr = $tumblrObj->getArray();
+$tumblrArr = $tumblrObj->dumpArray();
 }}}
 
 Now I think you could print_r that array and see what you can do with it ;) . That's all!
