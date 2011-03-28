@@ -34,7 +34,7 @@ $tumblrArr = $tumblrObj->dumpArray();
 Now I think you could print_r that array and see what you can do with it ;) . That's all!
 
 = Enable Caching =
-phpTumblr support caching of XML files to save bandwith. It's simple as well! Remember when we create the Object?
+phpTumblr support caching so you can save bandwith and stop bombing Tumblr. It's simple as well! Remember when we create the Object?
 {{{
 $tumblrObj = new readTumblr('mytumblelog');
 }}}
